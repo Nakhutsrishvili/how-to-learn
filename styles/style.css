@@ -18,6 +18,7 @@
   align-items: center;
   border: dotted;
   position: relative;
+  margin-bottom: 100px;
 
   /* выше установили ограничения для секции */
 }
@@ -62,9 +63,15 @@ z-index: 2;
   right: 0;
 }
 /* Секция description */
+.description{
+  margin-bottom: 100px;
+}
 .two-columns{
   display: flex;
   width: 80%;
+  justify-content:space-between;
+  margin-left: auto;
+  margin-right: auto;
 }
 .two-columns__brief{
   width: 175px;
@@ -72,16 +79,23 @@ z-index: 2;
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
-
 }
 .two-columns__main-text{
 width: 80%;
 min-width: 784px;
+min-height: auto;
 }
 .two-columns__paragraph{
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+}
+.paragraph-two{
+  margin-bottom: 30px;
+  margin-top:30px;
+}
+.span-accent{
+  font-weight:600;
 }
 
 
