@@ -16,7 +16,6 @@
   background-color: #f2f2f2;
   display: flex;
   align-items: center;
-  border: dotted;
   position: relative;
   margin-bottom: 100px;
 
@@ -97,6 +96,21 @@ min-height: auto;
 .span-accent{
   font-weight:600;
 }
+/* Секция digits */
+.table{
+  display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
