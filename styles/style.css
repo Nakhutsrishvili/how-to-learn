@@ -18,9 +18,10 @@
   align-items: center;
   position: relative;
   margin-bottom: 100px;
+  }
 
   /* выше установили ограничения для секции */
-}
+
 /* Секция header */
 .logo_placee_header{
   position: absolute;
@@ -97,23 +98,105 @@ min-height: auto;
   font-weight:600;
 }
 /* Секция digits */
+.section-title{
+  width: 60%;
+  margin-bottom: 20px;
+  margin-top: 100px;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-subtitle{
+  width: 60%;
+  margin-top: 20px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+}
+.table__heading{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.table_text{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
 .table{
   width: 1100px;
   display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
 }
 .table__cell{
   width: 250px;
   list-style-type: none;
   margin-top: 60px;
-  margin-bottom: 0px;
   padding-left: 0;
 }
+/* Секция feynman */
+.feynman{
+  height: 890px;
+  background-color: #f2f2f2;
+  background-image: url(../images/feynman.png);
+  background-size: 867px 637px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  z-index: 0;
+  position: relative;
+}
+.feynman__title{
+  width: 648px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+ padding-top: 100px;
+  margin-bottom: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 1;
+}
+.feynman__subtitle{
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 1;
+}
+.feynman__link{
+ color: #2f80ed;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin-bottom: auto;
+  margin-top: auto;
+ position: absolute;
+ right: 48px;
 
 }
-
-
-
-
+.feyman__img{
+  position: absolute;
+  width: 867px;
+  height: 637px;
+  z-index: 0;
+}
 
 
 
