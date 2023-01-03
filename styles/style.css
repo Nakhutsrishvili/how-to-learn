@@ -126,7 +126,7 @@ min-height: auto;
   font-weight: 600;
   margin-bottom: 20px;
 }
-.table_text{
+.table__text{
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -262,49 +262,56 @@ min-height: auto;
 min-height: 350px;
 background-color: #1f1f1f;
 color: white;
-border:dotted red;
 margin-right: 0;
+display: flex;
+justify-content:center;
+
 }
 .footer__columns_content_info{
-  border:solid rgb(0, 255, 149);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .footer__columns_content_social{
-  border:solid rgb(0, 255, 149);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .footer__columns{
   display: flex;
-  border:solid rgb(255, 217, 0);
+  justify-content: space-between;
   margin-top: 60px;
   margin-bottom: 40px;
+  width: 90%;
   }
 .logo_placee_footer{
-  size: 228px 32px;
-  border:solid rgb(234, 0, 255);
+  width: 228px;
+  height: 32px;
 }
 .footer__columns_content_copyright{
   flex-basis: 711px;
-  border:solid rgb(38, 0, 255);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
 }
 .footer__author{
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  border:solid red;
   margin-bottom: 18px;
   margin-top: 18px;
-  align-content: space-between;
-}
+  max-width: max-content;
+  }
 .footer__column-links{
   padding-left: 0;
   margin-bottom: 16px;
-  border:solid red;
 }
 .footer__column-heading{
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
   list-style-type: none;
-  border:solid red;
+  margin-top: 0;
   margin-bottom: 20px;
 }
 .footer__column-link{
@@ -318,4 +325,7 @@ margin-right: 0;
   height: 16px;
   margin-right: 10px;
 }
-
+.footer__column-link{
+  color: white;
+  text-decoration:none;
+}
