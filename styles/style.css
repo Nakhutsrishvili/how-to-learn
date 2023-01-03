@@ -20,9 +20,6 @@
   margin-bottom: 100px;
   }
 
-  /* выше установили ограничения для секции */
-
-/* Секция header */
 .logo_placee_header{
   position: absolute;
   left: 64px;
@@ -37,14 +34,14 @@
   z-index: 2;
 }
 .header__subtitle{
-position: absolute;
-line-height: 25px;
-font-size: 18px;
-font-weight: normal;
-width: 388px;
-bottom: 30px;
-left: 64px;
-z-index: 2;
+  position: absolute;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  width: 388px;
+  bottom: 30px;
+  left: 64px;
+  z-index: 2;
  }
 .header__main-illustration{
   position: absolute;
@@ -62,7 +59,7 @@ z-index: 2;
   top: 64px;
   right: 0;
 }
-/* Секция description */
+
 .section-one{
   margin-bottom: 100px;
 }
@@ -81,9 +78,9 @@ z-index: 2;
   color: #2f80ed;
 }
 .two-columns__main-text{
-width: 80%;
-min-width: 784px;
-min-height: auto;
+  width: 80%;
+  min-width: 784px;
+  min-height: auto;
 }
 .two-columns__paragraph{
   line-height: 34px;
@@ -97,7 +94,7 @@ min-height: auto;
 .span-accent{
   font-weight:600;
 }
-/* Секция digits */
+
 .section-title{
   width: 60%;
   margin-bottom: 20px;
@@ -147,7 +144,7 @@ min-height: auto;
   margin-top: 60px;
   padding-left: 0;
 }
-/* Секция feynman */
+
 .section-three{
   height: 890px;
   background-color: #f2f2f2;
@@ -163,7 +160,7 @@ min-height: auto;
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
- padding-top: 100px;
+  padding-top: 100px;
   margin-bottom: 70px;
   margin-left: auto;
   margin-right: auto;
@@ -187,10 +184,10 @@ min-height: auto;
   font-weight: normal;
   margin-bottom: auto;
   margin-top: auto;
- position: absolute;
- right: 48px;
+  position: absolute;
+  right: 48px;
 }
-/* Секция kaufman */
+
 .section-four{
     background-color: #1f1f1f;
     color: white;
@@ -257,14 +254,13 @@ min-height: auto;
   margin-right: 0;
 }
 
-/* Footer */
 .footer{
-min-height: 350px;
-background-color: #1f1f1f;
-color: white;
-margin-right: 0;
-display: flex;
-justify-content:center;
+  min-height: 350px;
+  background-color: #1f1f1f;
+  color: white;
+  margin-right: 0;
+  display: flex;
+  justify-content:center;
 
 }
 .footer__columns_content_info{
@@ -292,7 +288,6 @@ justify-content:center;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
 .footer__author{
   line-height: 25px;
